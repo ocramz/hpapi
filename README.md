@@ -2,15 +2,6 @@
 
 This library provides the Haskell bindings for the Performance API (PAPI) library, <http://icl.cs.utk.edu/papi/>.
 
-It is an early alpha release and the interface may change
-but for basic use of the High Level interface it should be fully functional.
-
-The latest version can be downloaded from:
-  http://hackage.haskell.org/cgi-bin/hackage-scripts/package/hpapi
-
-The source repository is at:
-  http://code.haskell.org/hpapi/
-
 
 Installation
 ============
