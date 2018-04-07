@@ -1,5 +1,6 @@
-This is version 0.0.1.0 of hpapi.  It provides a Haskell binding
-for the Performance API (PAPI) library, <http://icl.cs.utk.edu/papi/>.
+# hPAPI
+
+This library provides the Haskell bindings for the Performance API (PAPI) library, <http://icl.cs.utk.edu/papi/>.
 
 It is an early alpha release and the interface may change
 but for basic use of the High Level interface it should be fully functional.
@@ -10,7 +11,6 @@ The latest version can be downloaded from:
 The source repository is at:
   http://code.haskell.org/hpapi/
 
-Please report any bugs to <adamsmd [AT] cs.indiana.edu>.
 
 Installation
 ============
