@@ -11,9 +11,9 @@ to be installed before you get started.
 But the binding itself uses a standard Cabal building system
 so it can be simply installed with:
 
-  runhaskell Setup.hs configure
-  runhaskell Setup.hs build
-  runhaskell Setup.hs install
+    runhaskell Setup.hs configure
+    runhaskell Setup.hs build
+    runhaskell Setup.hs install
 
 The last command may need to be run as root.
 
@@ -21,10 +21,10 @@ Usage
 =====
 The basic use of this library is demonstrated by the following example.
 
-  main = do
-    [l1,tlb,fp] <- withCounters [papi_l1_dcm, papi_tlb_dm, papi_fp_ins]
-                     ioOperationToMeasure
-    print (l1, tlb, fp)
+    main = do
+      [l1,tlb,fp] <- withCounters [papi_l1_dcm, papi_tlb_dm, papi_fp_ins]
+                       ioOperationToMeasure
+      print (l1, tlb, fp)
 
 Documentation
 =============
